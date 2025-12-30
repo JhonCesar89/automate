@@ -1,0 +1,26 @@
+# Web Scraping
+selenium>=4.15.0
+webdriver-manager>=4.0.1
+
+# Data Processing
+pandas>=2.0.0
+openpyxl>=3.1.0  # Excel support
+
+# HTTP Requests (for APIs if available)
+requests>=2.31.0
+httpx>=0.25.0  # async support
+
+# Configuration
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Logging
+loguru>=0.7.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# Utilities
+tenacity>=8.2.0  # retry logic
